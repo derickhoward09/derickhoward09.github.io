@@ -1,0 +1,243 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Derick Howard | Data Science & MLOps</title>
+  <meta name="description" content="Derick Howard is a Data Science M.S. student at WPI with a Civil Engineering background, building ML, BI, and MLOps applications for transportation, operations, and large-scale systems.">
+  <meta property="og:title" content="Derick Howard | Data Science & MLOps">
+  <meta property="og:description" content="ML, BI, and MLOps applications for transportation, operations, and large-scale systems.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='22' fill='%231f3a68'/><text x='50' y='67' font-size='52' font-family='Arial' font-weight='700' text-anchor='middle' fill='white'>DH</text></svg>">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="brand" href="#top">Derick Howard</a>
+      <nav>
+        <a href="#projects">Projects</a>
+        <a href="#hackathons">Hackathons</a>
+        <a href="#experience">Experience</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+        <button id="theme" class="icon-btn" aria-label="Toggle dark mode" title="Toggle dark mode">◐</button>
+      </nav>
+    </div>
+  </header>
+
+  <main id="top">
+    <section class="hero wrap">
+      <p class="eyebrow">Data Science M.S. · WPI · Worcester, MA</p>
+      <h1>I turn infrastructure and operations problems into working ML, BI, and MLOps systems.</h1>
+      <p class="lead">Civil engineer turned data scientist with 6+ years of infrastructure and project-management experience. I build predictive models, dashboards, and deployed AI apps for transportation, operations, and large-scale systems.</p>
+      <div class="cta">
+        <a class="btn primary" href="#projects">See my work</a>
+        <a class="btn" href="https://github.com/derickhoward09">GitHub</a>
+        <a class="btn" href="https://linkedin.com/in/derick-howard">LinkedIn</a>
+        <a class="btn" href="mailto:dhoward@wpi.edu">Email me</a>
+      </div>
+      <ul class="stats">
+        <li><strong>4.0</strong><span>WPI GPA</span></li>
+        <li><strong>6+</strong><span>years in infrastructure</span></li>
+        <li><strong>1st</strong><span>place, Goathacks '26</span></li>
+        <li><strong>14,000+</strong><span>hackathon participants</span></li>
+      </ul>
+    </section>
+
+    <section id="projects" class="wrap">
+      <h2>Technical &amp; Data Projects</h2>
+      <div class="grid">
+        <article class="card">
+          <div class="meta"><span class="tag">MLOps</span><time>Sep 2026</time></div>
+          <h3>ResumeLens AI</h3>
+          <p class="sub">MLOps case study · WPI</p>
+          <p>Gradio resume-review app deployed on Hugging Face Spaces. Benchmarked locally hosted LLMs (IBM Granite, Qwen) against a remote inference API (GPT-OSS-20B, GLM-5.3-Flash) with automatic failover between them.</p>
+          <p>Automated CI/CD with GitHub Actions to sync Hugging Face and GitHub repos. Remote inference ran <strong>~35x faster</strong> and cost under <strong>$0.50 per 1,000 users</strong> versus ~$98 in local GPU compute.</p>
+          <p class="stack">Gradio · Hugging Face Spaces · GitHub Actions · LLMs</p>
+        </article>
+
+        <article class="card">
+          <div class="meta"><span class="tag">BI</span><time>Aug 2026</time></div>
+          <h3>Olist BI Dashboard Suite</h3>
+          <p class="sub">Team project · WPI</p>
+          <p>End-to-end Tableau solution for Olist, a Brazilian e-commerce marketplace, joining 8 relational tables (orders, payments, reviews, customers, products, sellers) into one analysis-ready model.</p>
+          <p>Curated the dataset, authored the business case, and contributed to Executive and Operations dashboards with interactive KPIs and filter actions on a 3-person team.</p>
+          <p class="stack">Tableau · Data modeling · KPIs</p>
+        </article>
+
+        <article class="card">
+          <div class="meta"><span class="tag">Machine Learning</span><time>Dec 2025</time></div>
+          <h3>FleetIQ</h3>
+          <p class="sub">Electric vehicle predictive maintenance · WPI</p>
+          <p>Random Forest system that predicts Remaining Useful Life and component health, enabling proactive maintenance and reducing unplanned fleet downtime by up to <strong>30%</strong>.</p>
+          <p class="stack">Python · Scikit-learn · Random Forests</p>
+        </article>
+
+        <article class="card">
+          <div class="meta"><span class="tag">Civic Data</span><time>Nov 2025</time></div>
+          <h3>CPA Project Risk Prediction Tool</h3>
+          <p class="sub">Hack for Human Impact · WPI</p>
+          <p>Project Completion Risk Score that flags Community Preservation Act projects at risk of delay, underfunding, or incompletion, helping local governments prioritize high-impact projects, spot risks early, and optimize resources.</p>
+          <p class="stack">Python · Risk scoring · Public sector</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="hackathons" class="wrap">
+      <h2>Hackathons &amp; Competitions</h2>
+      <ul class="timeline">
+        <li>
+          <time>Apr 2026</time>
+          <div>
+            <h3>AI Speech Interpreter</h3>
+            <p class="sub">Harvard Health Systems Innovation Lab (HSIL) Hackathon</p>
+            <p>Real-time AI interpreter converting speech into synchronized text and video. Built and pitched a working prototype in 48 hours at a global hackathon with 14,000+ participants.</p>
+          </div>
+        </li>
+        <li>
+          <time>Mar 2026</time>
+          <div>
+            <h3>MedStory</h3>
+            <p class="sub">NYC Build With AI Hackathon · Google Developer Groups NYC, Columbia University</p>
+            <p>AI app using Google Cloud and Gemini APIs that turns complex medical explanations into clear, patient-friendly narratives delivered as easy-to-understand videos.</p>
+          </div>
+        </li>
+        <li>
+          <time>Feb 2026</time>
+          <div>
+            <h3>Chelsea AirWatch <span class="badge">Award winner</span></h3>
+            <p class="sub">CivicHacks · Boston University</p>
+            <p>Won the Air Quality Data Visualization Prize for a civic platform that maps real-time air quality and uses AI guidance to help residents find pollution hotspots and lower-exposure routes.</p>
+          </div>
+        </li>
+        <li>
+          <time>Jan 2026</time>
+          <div>
+            <h3>MBTA Transit Planner <span class="badge">1st place</span></h3>
+            <p class="sub">Goathacks '26 · WPI (HNTB sponsored)</p>
+            <p>AI-driven transit planner that optimizes route selection and travel-time estimation using the MBTA and Gemini APIs.</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="skills" class="wrap">
+      <h2>Skills</h2>
+      <dl class="skills">
+        <div><dt>Programming</dt><dd>Python, R, SQL, JavaScript, HTML/CSS</dd></div>
+        <div><dt>BI, Data &amp; AI</dt><dd>Tableau, Power BI, Excel (PivotTables, Power Query), Pandas, NumPy, Scikit-learn, Matplotlib, Hadoop ecosystem (Spark, Hive, Pig, HBase)</dd></div>
+        <div><dt>MLOps &amp; Deployment</dt><dd>Hugging Face Spaces, Gradio, Git/GitHub, GitHub Actions (CI/CD)</dd></div>
+        <div><dt>Languages</dt><dd>English (native), Spanish (native), German (basic)</dd></div>
+      </dl>
+    </section>
+
+    <section id="experience" class="wrap">
+      <h2>Professional Experience</h2>
+      <ul class="timeline">
+        <li>
+          <time>Apr 2023 – Mar 2024</time>
+          <div>
+            <h3>Project Manager</h3>
+            <p class="sub">Pro Archipelago Foundation · San Andres, Colombia</p>
+            <p>Led 10 reconstruction projects, managing budgets and cross-functional teams while delivering KPI dashboards and reports in Excel and Power BI to support data-driven decisions.</p>
+          </div>
+        </li>
+        <li>
+          <time>Oct 2021 – May 2022</time>
+          <div>
+            <h3>Civil Engineer / Consultant</h3>
+            <p class="sub">United Nations Development Programme · Colombia</p>
+            <p>Led post-disaster reconstruction after a Category 5 hurricane, coordinating field crews and building schedules and reports that cut project downtime by <strong>20%</strong> over 7 months.</p>
+          </div>
+        </li>
+        <li>
+          <time>Jan 2021 – Sep 2022</time>
+          <div>
+            <h3>Project Supervisor</h3>
+            <p class="sub">Mayor's Office of Providence · Colombia</p>
+            <p>Supervised public infrastructure projects spanning bridges, schools, housing, and large-scale urban planning. Managed logistics for ~150 tons of materials and implemented dashboards to improve resource allocation and performance visibility.</p>
+          </div>
+        </li>
+        <li>
+          <time>Jun 2019 – Dec 2020</time>
+          <div>
+            <h3>Traffic Signal Phase Design</h3>
+            <p class="sub">Government of San Andres · Colombia</p>
+            <p>Contributed to signal phase design for public road intersections, supporting safer traffic flow and better intersection operations.</p>
+          </div>
+        </li>
+      </ul>
+
+      <h2 class="sub-h">Teaching</h2>
+      <ul class="timeline">
+        <li>
+          <time>Jun 2023 – Aug 2025</time>
+          <div>
+            <h3>Instructor</h3>
+            <p class="sub">INFOTEPSAI · Mathematics, Cost Analysis, Physics, and Budgeting</p>
+          </div>
+        </li>
+        <li>
+          <time>Feb 2014 – Dec 2016</time>
+          <div>
+            <h3>Teaching Assistant</h3>
+            <p class="sub">Universidad de Medellín · Statistics &amp; Applied Mathematics</p>
+          </div>
+        </li>
+      </ul>
+    </section>
+
+    <section id="education" class="wrap">
+      <h2>Education</h2>
+      <div class="grid three">
+        <article class="card">
+          <time>Aug 2025 – Aug 2027</time>
+          <h3>M.S. Data Science</h3>
+          <p class="sub">Worcester Polytechnic Institute</p>
+          <p>GPA 4.0 / 4.0</p>
+        </article>
+        <article class="card">
+          <time>Jan 2024 – Dec 2026</time>
+          <h3>MBA</h3>
+          <p class="sub">Universidad de la Costa (CUC), Barranquilla</p>
+          <p>GPA 4.5 / 5.0</p>
+        </article>
+        <article class="card">
+          <time>Feb 2013 – May 2019</time>
+          <h3>B.S. Civil Engineering</h3>
+          <p class="sub">Universidad de Medellín</p>
+        </article>
+      </div>
+    </section>
+
+    <section id="awards" class="wrap">
+      <h2>Leadership &amp; Awards</h2>
+      <ul class="plain">
+        <li><strong>Fulbright Endowed Scholarship Winner</strong>, Fulbright Colombia <time>Jul 2024</time></li>
+        <li><strong>San Andres Chamber of Commerce Scholarship</strong>, Universidad de la Costa (MBA) <time>Jan 2024</time></li>
+        <li><strong>Co-Founder, DI RUUTS Projek</strong>, Medellín, Colombia <time>2016</time><br>Co-founded an educational initiative that reduced college dropout rates among Black students by 47% within 12 months.</li>
+      </ul>
+    </section>
+
+    <section id="contact" class="wrap contact">
+      <h2>Let's work together</h2>
+      <p>I'm open to data science, ML, and analytics opportunities in transportation, infrastructure, and operations.</p>
+      <div class="cta center">
+        <a class="btn primary" href="mailto:dhoward@wpi.edu">dhoward@wpi.edu</a>
+        <a class="btn" href="https://linkedin.com/in/derick-howard">LinkedIn</a>
+        <a class="btn" href="https://github.com/derickhoward09">GitHub</a>
+      </div>
+    </section>
+  </main>
+
+  <footer class="wrap">
+    <p>© <span id="year">2026</span> Derick Howard · Worcester, MA</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
